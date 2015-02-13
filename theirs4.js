@@ -76,13 +76,12 @@ var FilterableProductTable = React.createClass({
     render: function() {
         return (
             <div>
-                <SearchBar 
+                <SearchBar
                     filterText={this.state.filterText}
                     inStockOnly={this.state.inStockOnly}
                 />
-
-                <ProductTable 
-                    products={this.props.products} 
+                <ProductTable
+                    products={this.props.products}
                     filterText={this.state.filterText}
                     inStockOnly={this.state.inStockOnly}
                 />
