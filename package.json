@@ -1,0 +1,24 @@
+{
+  "name": "thinking-in-react",
+  "version": "0.0.0",
+  "description": "from the facebook example article",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:jrios/react-scratchpad"
+  },
+  "author": "Vikram Somu",
+  "dependencies": {
+    "envify": "^1.2.1",
+    "react": "^0.10.0"
+  },
+  "devDependencies": {
+    "browserify": "^4.2.0",
+    "reactify": "^0.13.1"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
