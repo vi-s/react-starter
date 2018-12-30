@@ -1,6 +1,6 @@
 thinking-in-react
 ================
-Tutorial from the official FB docs, found [here](https://reactjs.org/docs/thinking-in-react.html). 
+Tutorial from the official React docs, found [here](https://reactjs.org/docs/thinking-in-react.html). 
 
 ``npm install``
 
